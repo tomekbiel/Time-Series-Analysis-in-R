@@ -1,0 +1,24 @@
+# Dane 
+*.RData 
+*.Rdata 
+*.rda 
+*.rds 
+ 
+# Pliki katalogu 
+.Rproj.user/ 
+.Rhistory 
+.RData 
+.Ruserdata/ 
+ 
+# Pliki wyjsciowe 
+*.pdf 
+*.html 
+*.docx 
+*.xlsx 
+*.csv 
+ 
+# Katalogi 
+data/ 
+output/ 
+reports/ 
+.Rproj.user
