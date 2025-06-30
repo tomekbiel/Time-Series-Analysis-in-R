@@ -11,3 +11,4 @@ Projekt zawiera analizy szeregów czasowych wykonane w języku R.
 ## Wymagania
 - R w wersji 4.x
 - RStudio (zalecane)
+
