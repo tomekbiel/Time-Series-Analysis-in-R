@@ -7,7 +7,9 @@ pacman::p_load(
   data.table,    # Szybkie wczytywanie i przetwarzanie danych
   lubridate,     # Praca z datami
   tictoc,        # Pomiar czasu wykonywania
-  future.apply   # Równoległe przetwarzanie
+  future.apply,   # Równoległe przetwarzanie
+  stable,
+  fBasics
 )
 
 # 2. Konfiguracja ----
@@ -236,3 +238,4 @@ if (sys.nframe() == 0) {
     cat("\nSzereg czasowy dla us100d1 (pierwsze 5 wartości):\n")
     print(head(us100_ts, 5))
   }
+}
