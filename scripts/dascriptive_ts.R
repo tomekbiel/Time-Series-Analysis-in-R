@@ -38,7 +38,7 @@ if (sys.nframe() == 0) {
   # --- KONFIGURACJA ANALIZY ---
   # Tutaj możesz zmieniać symbol i timeframe dla analizy
   selected_symbol <- "US.100"   # Można zmienić na np. "OIL.WTI"
-  selected_timeframe <- "M5"    # Można zmienić na np. "H4"
+  selected_timeframe <- "D1"    # Można zmienić na np. "H4"
   # ----------------------------
   
   # Generuj nazwę zbioru danych na podstawie wyboru

@@ -7,9 +7,13 @@ pacman::p_load(
   data.table,    # Szybkie wczytywanie i przetwarzanie danych
   lubridate,     # Praca z datami
   tictoc,        # Pomiar czasu wykonywania
-  future.apply,   # Równoległe przetwarzanie
-  stable,
-  fBasics
+  future.apply,  # Równoległe przetwarzanie
+  stable,        #
+  fBasics,       #
+  alphastable,    # STABLE DISTRIBUTION 
+  stabledist,
+  ADGofTest
+  
 )
 
 # 2. Konfiguracja ----
